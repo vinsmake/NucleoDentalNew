@@ -16,6 +16,7 @@
 
 :root {
 
+  --blue-filter: drop-shadow(6px 6px 0px #0083ee);
   /**
    * colors
    */
@@ -1231,3 +1232,10 @@ body {
   text-align: justify;
 }
 
+.margin {
+  filter: var(--blue-filter);
+}
+
+.sonrisa {
+  grid-template-columns: 1fr 1fr;
+}
